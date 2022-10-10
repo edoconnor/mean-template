@@ -6,7 +6,7 @@ import { EmployeeService } from "../employee.service";
 @Component({
   selector: "app-employees-list",
   template: `
-    <h2 class="text-center m-5">Employees List</h2>
+    <h2 class="text-center m-5">Boarding List</h2>
 
     <table class="table table-striped table-bordered">
       <thead>
@@ -42,7 +42,7 @@ import { EmployeeService } from "../employee.service";
     </table>
 
     <button class="btn btn-primary mt-3" [routerLink]="['new']">
-      Add a New Employee
+      Add a New Boarder
     </button>
   `,
 })

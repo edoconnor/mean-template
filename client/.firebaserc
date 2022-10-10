@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "flaskblog-poll": {
+      "hosting": {
+        "client": [
+          "flaskblog-poll"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "flaskblog-poll"
+  }
+}

@@ -104,6 +104,16 @@
           "options": {
             "browserTarget": "client:build"
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "client:build:production",
+            "firebaseProject": "flaskblog-poll",
+            "firebaseHostingSite": "flaskblog-poll"
+          }
         }
       }
     }
