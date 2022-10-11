@@ -7,7 +7,7 @@ import { Employee } from "./employee";
   providedIn: "root",
 })
 export class EmployeeService {
-  private url = "http://localhost:5200";
+  private url = "https://hidden-basin-02676.herokuapp.com";
   private employees$: Subject<Employee[]> = new Subject();
 
   constructor(private httpClient: HttpClient) {}
